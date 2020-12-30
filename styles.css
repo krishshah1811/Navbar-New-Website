@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0; /*  Changes padding to 0*/
+  margin: 0; /*   Changes margin to 0  */
+}
+
+body {
+  font-family: "lato", sans-serif; /*  Changes font family to lato/sans-serif  */
+  color: #333; /*   Changes text color to black */
+  line-height: 1.6; /*  Adds space between all of the lines */
+  background-color: powderblue; /*  Changes background color to powderblue*/
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points from list items  */
+}
+
+a {
+  text-decoration: none; /*  Removes undeline from anchor tag */
+  color: #fff; /*   Changes text color to white */
+}
+
+h1,
+h2 {
+  font-weight: 300; /* Change font weight to 300*/
+  line-height: 1.2; /*  Adds space of h1's and 2's */
+  margin: 10px 0; /* Adds margin*/
+}
+
+.navbar {
+  background-color: #047aed; /*  Changes background color to  #047aed*/
+  color: #fff; /*   Changes text color */
+  height: 70px; /* Adds height of 70px*/
+}
+
+.navbar ul {
+   display: flex; /*Changes display to flex */
+}
+
+.navbar a {
+  color: #fff; /*   Changes text color */
+  padding: 10px; /*  Adds padding between anchoe tags  */
+  margin: 0 5px; /* Adds margin*/
+}
+
+.navbar a:hover {
+  border-bottom: 2px #fff solid; /*  Adds border to the bottom of 2 px of white color*/
+}
+
+.navbar .flex {
+  display: flex;  /*Seprates logo and anchor tags  */
+  justify-content: space-between; /* Adjust space between h1 and navbar items */
+  align-items: center; /* Align all items in center Horizontally */
+   height: 70px; /*Adjust height of navbar items from top */
+}
+
+.container {
+  max-width: 1600px; /* Adjust container minimum container width */
+  margin: 0px auto;  /*  Adjusts heading from left  */
+  overflow: auto; /*Shifts nav bar to the top  */
+  padding: 0 50px; /* Adds padding in the navbar  */
+}

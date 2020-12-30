@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "lato", sans-serif; /*  Changes font family to lato/sans-serif  */
+  background-color: powderblue;
+}
+
+.container {
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  box-sizing: border-box;
+  height: 70px;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.container ul {
+  display: flex;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+img {
+  line-height: 1.2;
+  /* margin: 10px 0; */
+  width: 70px;
+  padding: 0 0 0 40px;
+}
+
+.navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li:nth-child(4) {
+  margin: 0 70px 0 0;
+}
+
+img {
+  position: relative;
+  transition-property: transform;
+  transition-duration: 4s;
+}
+
+img:hover {
+  transform: rotateY(360deg);
+  cursor: pointer;
+}
+
+a:hover {
+  border-bottom: white 3px solid;
+}
+
+.Nav-Name {
+  position: absolute;
+  margin: auto auto auto 120px;
+  letter-spacing: 0.1rem;
+}
+
+.Nav-Name2 {
+  font-weight: normal;
+  margin: auto auto auto 160px;
+  letter-spacing: 0.1rem;
+}
